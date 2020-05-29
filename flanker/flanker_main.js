@@ -8,18 +8,18 @@ var reps_per_trial_type = 4;
 /*set up welcome block*/
 var welcome = {
   type: "html-keyboard-response",
-  stimulus: "Welcome to the LEAP Learner Profile Flanker Task draft. Press any key to begin."
+  stimulus: " Welcome to the LEAP Learner Profile Flanker Task draft. Press any key to begin."
 };
 
 /*set up instructions block*/
 var instructions = {
   type: "html-keyboard-response",
-  stimulus: "<p>In this task, you will see five arrows on the screen, like the example below.</p>"+
+  stimulus: "<p> In this task, you will see five arrows on the screen, like the example below.</p>"+
     "<img src='" +repo_site+ "img/inc1.png'></img>"+
-    "<p>Press the left arrow key if the middle arrow is pointing left. (<)</p>"+
-    "<p>Press the right arrow key if the middle arrow is pointing right. (>)</p>"+
-    "<p>Press any key to begin.</p>" +
-    "<p>(Please notify Tiffany of any mistakes/weird things that happen.)</p>",
+    "<p>  Press the left arrow key if the middle arrow is pointing left. (<)</p>"+
+    "<p>  Press the right arrow key if the middle arrow is pointing right. (>)</p>"+
+    "<p>  Press any key to begin.</p>" +
+    "<p>  (Please notify Tiffany of any mistakes/weird things that happen.)</p>",
   post_trial_gap: 1000
 };
 
